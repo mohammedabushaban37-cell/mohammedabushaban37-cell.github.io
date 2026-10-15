@@ -11,26 +11,17 @@
 <style>
 /* Layout: single centered column, waveform hero, labelled sections down a left rail */
 :root {
-  --bg: #f2f6fb;
-  --surface: #ffffff;
-  --ink: #0e1b2e;
-  --muted: #4d5d73;
-  --line: #d6e0ec;
-  --accent: #1d5fd1;
-  --accent-soft: #e3edfc;
+  --bg: #000000;
+  --surface: #0d0d0d;
+  --ink: #f2f2f2;
+  --muted: #a3a3a3;
+  --line: #262626;
+  --accent: #d4af37;
+  --accent-soft: #17130a;
   --font-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
   --font-body: "Manrope", "Segoe UI", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #0a1220; --surface: #111c2e; --ink: #e8eef8; --muted: #9db0c8;
-    --line: #22324a; --accent: #6ea4ff; --accent-soft: #15284a; color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #0a1220; --surface: #111c2e; --ink: #e8eef8; --muted: #9db0c8;
-  --line: #22324a; --accent: #6ea4ff; --accent-soft: #15284a; color-scheme: dark;
+  color-scheme: dark;
 }
 * { box-sizing: border-box; }
 body {
